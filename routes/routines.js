@@ -13,7 +13,7 @@ export function createRoutinesRoutes({RoutineModel}){
 
     usersRoutes.put('/:id', routinesControllers.putRoutineById)
     
-    usersRoutes.delete('/:id', routinesControllers.deleteRoutineById)
+    // usersRoutes.delete('/:id', routinesControllers.deleteRoutineById)
 
     return usersRoutes
 }

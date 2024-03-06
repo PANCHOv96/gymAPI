@@ -13,7 +13,7 @@ export function createExercisesRoutes({ExerciseModel}){
 
     usersRoutes.put('/:id', exercisesControllers.putExerciseById)
 
-    usersRoutes.delete('/:id', exercisesControllers.deleteExerciseById)
+    // usersRoutes.delete('/:id', exercisesControllers.deleteExerciseById)
 
     return usersRoutes
 }
